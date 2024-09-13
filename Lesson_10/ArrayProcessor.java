@@ -10,7 +10,7 @@ public class ArrayProcessor {
         }
 
         int sum = 0;
-        List<String> errors = new ArrayList<>(); // Список для хранения всех ошибок
+        List<String> errors = new ArrayList<>();
 
 
         for (int i = 0; i < array.length; i++) {
@@ -19,13 +19,13 @@ public class ArrayProcessor {
 
                     sum += Integer.parseInt(array[i][j]);
                 } catch (NumberFormatException e) {
-                    // Сохраняем информацию об ошибке
+
                     errors.add("Неверные данные на (" + i + "," + j + "): " + array[i][j]);
                 }
             }
         }
 
-        // Если есть ошибки, бросаем исключение с информацией обо всех ошибках
+
         if (!errors.isEmpty()) {
             throw new MyArrayDataException(String.join("\n", errors));
         }

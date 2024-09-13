@@ -1,5 +1,3 @@
-package edu.java.development;
-
 public class Bowl {
     private int foodAmount;
 
@@ -23,7 +21,5 @@ public class Bowl {
         }
     }
 
-    public int getFoodAmount() {
-        return foodAmount;
-    }
+
 }

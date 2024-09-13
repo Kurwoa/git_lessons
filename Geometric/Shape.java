@@ -1,5 +1,3 @@
-package edu.java.development;
-
 public interface Shape {
     double calculateArea();  // Площадь
     double calculatePerimeter();  // Периметр

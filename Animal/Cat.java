@@ -1,5 +1,3 @@
-package edu.java.development;
-
 public class Cat extends Animal {
     private static int catCount = 0;
     private boolean isFull;

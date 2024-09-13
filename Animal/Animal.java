@@ -1,10 +1,8 @@
-package edu.java.development;
-
 public class Animal {
     protected String name;
     protected int maxRunDistance;
     protected int maxSwimDistance;
-    protected static int animalCount = 0; 
+    protected static int animalCount = 0;
 
     public Animal(String name, int maxRunDistance, int maxSwimDistance) {
         this.name = name;

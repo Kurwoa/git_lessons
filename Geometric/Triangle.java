@@ -1,5 +1,3 @@
-package edu.java.development;
-
 public class Triangle implements Shape {
     private double sideA;
     private double sideB;

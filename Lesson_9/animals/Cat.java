@@ -1,5 +1,8 @@
+package animals;
+
 public class Cat extends Animal {
     private static int catCount = 0;
+    public boolean name;
     private boolean isFull;
 
     public Cat(String name) {

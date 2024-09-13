@@ -1,3 +1,5 @@
+package geometric;
+
 public interface Shape {
     double calculateArea();  // Площадь
     double calculatePerimeter();  // Периметр

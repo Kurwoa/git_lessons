@@ -1,5 +1,6 @@
-import geometric.*;
 import animals.*;
+import geometric.*;
+
 
 public class Main {
     public static void main(String[] args) {

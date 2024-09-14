@@ -1,5 +1,5 @@
-import animals.*;
 import geometric.*;
+import animals.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,5 @@
 package animals;
 
-
 public class Dog extends Animal {
     private static int dogCount = 0; // Переменная для подсчета всех собак
 
